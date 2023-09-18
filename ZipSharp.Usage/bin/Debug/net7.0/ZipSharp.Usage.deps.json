@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ZipSharp.Usage/1.0.0": {
+        "dependencies": {
+          "ZipSharp": "1.0.0"
+        },
+        "runtime": {
+          "ZipSharp.Usage.dll": {}
+        }
+      },
+      "ZipSharp/1.0.0": {
+        "runtime": {
+          "ZipSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZipSharp.Usage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZipSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

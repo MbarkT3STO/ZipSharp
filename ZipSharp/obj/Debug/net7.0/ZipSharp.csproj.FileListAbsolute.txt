@@ -1,0 +1,11 @@
+c:\Users\MBARKT3STO_m\source\repos\ZipSharp\ZipSharp\bin\Debug\net7.0\ZipSharp.deps.json
+c:\Users\MBARKT3STO_m\source\repos\ZipSharp\ZipSharp\bin\Debug\net7.0\ZipSharp.dll
+c:\Users\MBARKT3STO_m\source\repos\ZipSharp\ZipSharp\bin\Debug\net7.0\ZipSharp.pdb
+c:\Users\MBARKT3STO_m\source\repos\ZipSharp\ZipSharp\obj\Debug\net7.0\ZipSharp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\MBARKT3STO_m\source\repos\ZipSharp\ZipSharp\obj\Debug\net7.0\ZipSharp.AssemblyInfoInputs.cache
+c:\Users\MBARKT3STO_m\source\repos\ZipSharp\ZipSharp\obj\Debug\net7.0\ZipSharp.AssemblyInfo.cs
+c:\Users\MBARKT3STO_m\source\repos\ZipSharp\ZipSharp\obj\Debug\net7.0\ZipSharp.csproj.CoreCompileInputs.cache
+c:\Users\MBARKT3STO_m\source\repos\ZipSharp\ZipSharp\obj\Debug\net7.0\ZipSharp.dll
+c:\Users\MBARKT3STO_m\source\repos\ZipSharp\ZipSharp\obj\Debug\net7.0\refint\ZipSharp.dll
+c:\Users\MBARKT3STO_m\source\repos\ZipSharp\ZipSharp\obj\Debug\net7.0\ZipSharp.pdb
+c:\Users\MBARKT3STO_m\source\repos\ZipSharp\ZipSharp\obj\Debug\net7.0\ref\ZipSharp.dll

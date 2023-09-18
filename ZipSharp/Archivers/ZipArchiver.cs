@@ -1,4 +1,6 @@
 using System.IO.Compression;
+using System.Security.AccessControl;
+using System.Text;
 
 namespace ZipSharp.Archivers;
 
@@ -7,7 +9,7 @@ namespace ZipSharp.Archivers;
 /// </summary>
 public class ZipArchiver : IArchiver, IDisposable
 {
-	private bool _disposed= false;
+	private bool _disposed = false;
 	
 	
 	/// <inheritdoc/>
@@ -21,7 +23,29 @@ public class ZipArchiver : IArchiver, IDisposable
 			
 		try
 		{
-			ZipFile.CreateFromDirectory(source, destination);
+			// ZipFile.CreateFromDirectory(source, destination, CompressionLevel.Optimal, false, Encoding.UTF8);
+
+			// Get the directory info for the destination directory
+			var directoryInfo = new DirectoryInfo(destination);
+
+			// Get the current access control settings for the directory
+			var directorySecurity = directoryInfo.GetAccessControl();
+
+			// Add a new access rule that grants write permission to everyone
+			var accessRule = new FileSystemAccessRule("Everyone", FileSystemRights.Write, AccessControlType.Allow);
+			directorySecurity.AddAccessRule(accessRule);
+
+			// Set the new access control settings for the directory
+			directoryInfo.SetAccessControl(directorySecurity);
+
+			// The same method but with write permissions
+			using (var zip = ZipFile.Open(destination, ZipArchiveMode.Create))
+			{
+				foreach(var file in Directory.GetFiles(source))
+				{
+					zip.CreateEntryFromFile(file, Path.GetFileName(file), CompressionLevel.Fastest);
+				}
+			}
 		}
 		catch(Exception ex)
 		{

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "ZipSharp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ZipSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZipSharp.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ZipSharp/1.0.0": {
+      "type": "project",
+      "path": "../ZipSharp/ZipSharp.csproj",
+      "msbuildProject": "../ZipSharp/ZipSharp.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "ZipSharp >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\MBARKT3STO_0\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp\\ZipSharp.csproj",
-      "projectName": "ZipSharp",
-      "projectPath": "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp\\ZipSharp.csproj",
+      "projectUniqueName": "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp.Usage\\ZipSharp.Usage.csproj",
+      "projectName": "ZipSharp.Usage",
+      "projectPath": "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp.Usage\\ZipSharp.Usage.csproj",
       "packagesPath": "C:\\Users\\MBARKT3STO_0\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp\\obj\\",
+      "outputPath": "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp.Usage\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MBARKT3STO_0\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp\\ZipSharp.csproj": {
+              "projectPath": "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp\\ZipSharp.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp.Usage\\ZipSharp.Usage.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp.Usage\\ZipSharp.Usage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp.Usage\\ZipSharp.Usage.csproj",
+        "projectName": "ZipSharp.Usage",
+        "projectPath": "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp.Usage\\ZipSharp.Usage.csproj",
+        "packagesPath": "C:\\Users\\MBARKT3STO_0\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp.Usage\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MBARKT3STO_0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp\\ZipSharp.csproj": {
+                "projectPath": "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp\\ZipSharp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp\\ZipSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp\\ZipSharp.csproj",
+        "projectName": "ZipSharp",
+        "projectPath": "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp\\ZipSharp.csproj",
+        "packagesPath": "C:\\Users\\MBARKT3STO_0\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\MBARKT3STO_0\\source\\repos\\ZipSharp\\ZipSharp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MBARKT3STO_0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

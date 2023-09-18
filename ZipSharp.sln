@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipSharp", "ZipSharp\ZipSharp.csproj", "{333FAE1F-E172-4DAF-8135-B695B7632321}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipSharp.Usage", "ZipSharp.Usage\ZipSharp.Usage.csproj", "{30851E36-ED7F-485C-8ECE-92582143DCD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{333FAE1F-E172-4DAF-8135-B695B7632321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{333FAE1F-E172-4DAF-8135-B695B7632321}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{333FAE1F-E172-4DAF-8135-B695B7632321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30851E36-ED7F-485C-8ECE-92582143DCD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30851E36-ED7F-485C-8ECE-92582143DCD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30851E36-ED7F-485C-8ECE-92582143DCD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30851E36-ED7F-485C-8ECE-92582143DCD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
